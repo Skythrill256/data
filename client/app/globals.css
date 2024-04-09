@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #282828;
+}
+.navElem{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: darkseagreen;
+    color: black;
+    padding: 4px 8px;
+    border-radius: 20px 20px;
+}
+/* .navElem>span{
+    padding: 5px 3px;;
+} */
+
+@layer utilities {
+  
+}
